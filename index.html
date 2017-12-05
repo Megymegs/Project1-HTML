@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<head>
+
+  <style>
+    /*text align and background colour set to body of html*/
+    body {
+      text-align:center;
+      border: 2.5px solid lightgrey;
+      margin:auto;
+    }
+
+    header {
+      color: black;
+      border: 2.5px solid black;
+      background-color: Gold;
+      height: 120px;
+      position: fixed;
+      top: 0;
+      width: 98%;
+      overflow: hidden;
+    }
+
+    /*adding circle frame to img to create rounded look*/
+    img.circle {
+      border-radius:50%;
+      position:static;
+      box-shadow:3px 3px 3px 3px grey;
+    }
+
+    h1 {
+      color: black;
+      text-shadow:1px 1px turquoise;
+    }
+
+    h2 {
+      color: black;
+      text-shadow:1px 1px turquoise;
+    }
+
+    li span {
+      font-weight:normal;
+            }
+
+    /*Setting margin to div class body*/
+    div.Body {
+      margin:0.5%;
+      border:solid lightgrey;
+    }
+
+    div.navbar {
+      color:black;
+      display: inline;
+    }
+
+    div.About {
+      padding-top:110px;
+    }
+
+
+    div.Portfolio {
+      padding-top:110px;
+    }
+    /*Setting list styling to be next to list items*/
+    div.Achievements li {
+      display:list-item;
+      list-style-type: decimal;
+      font-weight:bold;
+      list-style-position: inside;
+      text-align: center;
+    }
+    /*Setting inline styling for social media icons*/
+    div.Social {
+      list-style-type: none;
+      display: inline-block;
+      height:60px;
+    }
+
+    div.Contact {
+      padding-top:100px;
+      padding-bottom:40px;
+    }
+    /*list style to display as disc and center align text*/
+    ol {
+      list-style-type: disc;
+      text-align: center;
+        }
+
+    li {
+      display: inline;
+    }
+
+    table {
+      table-layout:fixed;
+      width:auto;
+    }
+    /*underline all table headers and set font size*/
+    th {
+      text-align:center;
+      text-decoration:underline;
+      height:40px;
+    }
+
+    td {
+      text-align:left;
+    }
+
+    /*set footer to be fixed and background colour*/
+    footer {
+      color: black;
+      background-color: gold;
+      border: 1.5px solid black;
+      height: 60px;
+      width:98%;
+      position: fixed;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+  </style>
+
+  <title>Project</title>
+
+</head>
+
+<body>
+
+  <div class="Body">
+
+    <header>
+      <h1><ins>Portfolio Of Megan Meyer</ins></h1>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <!-- navbar with inline styling -->
+            <li><span style="border: 1px solid grey"><big><a href="#home" title="home" target="_self">Home</a></big></span></li>
+            <li><span style="border: 1px solid grey"><big><a href="#Portfolio" title="Portfolio" target="_self">Portfolio</a></big></span></li>
+            <li><span style="border: 1px solid grey"><big><a href="#Contact" title="Contact" target="_self">Contact</a></big></span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <li id="home"></li>
+    <div class="About">
+      <!-- paragraph about me including an image of myself in a circle frame-->
+      <h2><ins>About Me</ins></h2>
+      <p>I am a hardworking, motivated and goal driven individual. I have good attention to detail. <br>I am a punctual person and I am always willing to offer a helping hand. <br>I am hard headed which can be perceived as a positive or a negative depending on a persons perception. </p>
+      <br>
+      <p><img class="circle" src="C:\Users\Academy20\Desktop\My Projects\Megan HTML Project\Images\ProfMe.jpg" alt="Professional picture of Megan" width="300px" height="300px";></p>
+    </div>
+
+    <hr>
+    <!-- Start of div with all my Achievements thus far -->
+    <div class="Achievements" align="center">
+      <h2>Achievements</h2>
+      <ol>
+        <h4><ins>2010</ins></h4>
+        <li><span>Matric qualification</span></li>
+        <h4><ins>2012</ins></h4>
+        <li><span>Advance Microsoft Excel qualification</span></li>
+        <h4><ins>2013</ins></h4>
+        <li><span>Teach English as a Foreign Language (TEFL) qualification</span></li>
+        <li><span>Teach English to Speakers of Other Language (TESOL) qualification</span></li>
+        <li><span>Code 08 Drivers Licence qualification</span></li>
+        <h4><ins>Short Courses 2016</ins></h4>
+        <li><span>Certificate of Achievements in Management for a Competitive Edge</span></li>
+        <li><span>Certificate of Achievements in Leadership: Identity, Influence and Power</span></li>
+        <li><span>Certificate of Achievements in Human Resources</span></li>
+        <li><span>Certificate of Achievements in Strategic Management</span></li>
+        <li><span>Certificate of Achievements in Negotiation and Conflict Resolution</span></li>
+        <h4><ins>2017</ins></h4>
+        <li><span>Completed 2 week Life Skills course</span></li>
+        <h4><ins>Current</ins></h4>
+        <li><span>Studying Coding</span></li>
+      </ol>
+    </div>
+
+    <hr>
+
+    <li id="Portfolio">
+
+      <!-- start of employment history and contact refs in table format -->
+    <div class="Portfolio" align="center">
+      <h2><ins>Portfolio</ins></h2>
+      <h3><ins>Employment History</ins></h3>
+
+      <table>
+        <tr>
+          <th colspan="2">2010</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">PSG Prime (PTY) Ltd</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Administrator</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">Dec 2010 - Feb 2011</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px">Mrs H Van Niekerk</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">021 799 08087</td>
+        </tr>
+        <tr
+          <td width="200px"><b>Reason For Leaving:</b></td>
+          <td width="200px">End of Contract</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="2">2013</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">The Publishing Partnership</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Temp Receptionist</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">June 2013- July 2013</td>
+        </tr>
+        <br>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2">2014-2015</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">Kalahari.com</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Marketplace Data Capturer</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px"> Nov 2014 - Feb 2015</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px">Mr K Arnhard</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">021 468 8952</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Reason For Leaving:</b></td>
+          <td width="200px">End of Contract</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="2">2015-2016</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">The Publishing Partnership</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Admin Assistant</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">Nov 2015 - Jan 2016</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px">Ms M Jason</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">021 424 3517</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Reason For Leaving:</b></td>
+          <td width="200px">End of Contract</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="2">2016</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">Denis Dental Information Systems (Pty) Ltd</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Gems Data Capturer</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">Feb 2016 - June 2016</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px">Ms G Ismail</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">021 528 5543</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Reason For Leaving:</b></td>
+          <td width="200px">End of Contract</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="2">2016 - 2017</th>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">Romp 'n Roll China</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">English Second language Teacher</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">July 2016 - May 2017</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px"> Mr Lingling</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">+86 1834 124 4211</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Reason For Leaving:</b></td>
+          <td width="200px">End of Contract</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table>
+        <tr>
+          <th colspan="2">Part Time Employment</th>
+        </tr>
+        <tr>
+          <td width="200px"><b> Agencies:</b></td>
+          <td width="200px">Central Castings, <br>Hot Pencil, <br>Road 2 Fame, <br>The Go to Guy.</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Background extra in film industry</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">Dec 2010 - Present</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Company:</b></td>
+          <td width="200px">B.A.C Cape Town</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Position:</b></td>
+          <td width="200px">Stock Controller and counting hand</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Period:</b></td>
+          <td width="200px">2013 - Present</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Person:</b></td>
+          <td width="200px">Mr G Meyer</td>
+        </tr>
+        <tr>
+          <td width="200px"><b>Contact Number:</b></td>
+          <td width="200px">081 456 8021</td>
+        </tr>
+      </table>
+    </div>
+
+    <hr>
+    <li id="Contact"></li>
+    <!-- Contact me section with Contact form -->
+    <div class="Contact">
+      <h2><ins>Contact</ins></h2>
+      <address>41 Amazon Street, <br>Primrose Park,<br>Cape Town <br>South Africa <br>7764</address>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.434080447065!2d18.54247131521318!3d-33.98138248062518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44bfbfa1b185%3A0xe712e7ff33ece419!2s41+Amazon+St%2C+Primrose+Park%2C+Cape+Town%2C+7764%2C+South+Africa!5e0!3m2!1sen!2s!4v1503227793333" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <br>
+      <br>Cell: 081 277 3192
+      <br>Alternate Cell: 084 055 5276
+      <br>
+      <br><a href="mailto:megymegs@gmail.com" target="_top">megymegs@gmail.com</a>
+      <br>
+
+      <h3><ins>Contact Me</ins></h3>
+      <form action="mailto:megymegs@gmail.com"method="post" enctype="text/plain">
+        Full Name:<br>
+        <input type="text" name="Name">
+        <br>
+        Email Address:<br>
+        <input type="email" name="Email Address">
+        <br>
+        Message:<br>
+        <textarea rows="4" cols="30" name="Message"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+      <hr>
+    </div>
+
+    <footer>
+      <!-- links to my social media platforms -->
+        <div class="Social" align="center">
+          <ul>
+            <li><a href="https://www.facebook.com/MissSarcastic01" title="fa fa-facebook" target="_blank"><img class="circle" src="C:\Users\Academy20\Desktop\My Projects\Megan HTML Project\Images\Facebook.png" alt="Facebook Icon" width="30px" height="30px";></a></li>
+            <li><a href="https://twitter.com/Megan93Kim?lang=en" title="fa fa-Twitter" target="_blank"><img class="circle" src="C:\Users\Academy20\Desktop\My Projects\Megan HTML Project\Images\Twitter.png" alt="Twitter Icon" width="30" height="30";></a></li>
+            <li><a href="https://www.instagram.com/missmegymegs/?hl=en" title="fa fa-Instagram" target="_blank"><img class="circle" src="C:\Users\Academy20\Desktop\My Projects\Megan HTML Project\Images\Instagram.png" alt="Instagram Icon" width="30px" height="30px";></a></li>
+            <li><a href="https://www.linkedin.com/in/megan-meyer-1276a0113" title="fa fa-LinkedIn" target="_blank"><img class="circle" src="C:\Users\Academy20\Desktop\My Projects\Megan HTML Project\Images\LinkedIn.png" alt="LinkedIn Icon" width="30px" height="30px";></a></li>
+          </ul>
+        </div>
+        <!-- copyright information -->
+        <ins><em><p style="float:left">Copyright &copy; 2017</p></em></ins>
+        <ins><em><p style="float:right"><small>Designed by<a href="#home" title="home" target="_self">Megan Meyer</a></small></p></em></ins>
+      </footer>
+  </div>
+</body>
+</html>
